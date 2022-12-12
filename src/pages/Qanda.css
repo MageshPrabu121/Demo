@@ -1,0 +1,239 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .Common{
+    
+    background-color: white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  body{
+    background-image: url('https://res.cloudinary.com/dd7ksmffx/image/upload/v1670663899/annie-spratt-pKpipZVVEC0-unsplash_zodqtz.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+   
+  }
+  .bottom{
+    position: absolute;
+    left: 6%;
+    top: 107.5%;
+    font-size: smaller;
+  }
+  .bottompro{
+    position: absolute;
+    left: 6%;
+    top: 110%;
+    font-size: medium;
+  }
+  .bottompromax{
+    position: absolute;
+    left: 9.9%;
+    top: 110%;
+    font-size: medium;
+    color: red;
+  }
+  .Para2{
+    position:absolute;
+    top:32%;
+    left: 10%;
+    
+  }
+  .button1{
+    position: absolute;
+    font-size: 14px;
+    left: 62.4%;
+    top: 87.9%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: rgb(43, 150, 16);
+    color: white;
+  }
+  .Common button:hover
+  {
+    transform: scale(1.1);
+  }
+  .textbox{
+    position: absolute;
+    left: 14%;
+    top: 100%;
+    height: 5%;
+    width: 45%;
+    border-radius: 10px;
+  }
+  .comm1{
+    position: absolute;
+    left: 11%;
+    top: 92%;
+    font-size: medium;
+  }
+  .comm2{
+    position: absolute;
+    left: 11%;
+    top:95%;
+    color: blue;
+  }
+  .addcomm1{
+    position: absolute;
+    left: 22%;
+    top:85%;
+    color: grey;
+  }
+  .imgpromoth{
+    position: absolute;
+    left: 4.5%;
+    top: 29.5%;
+  }
+  .imgmanas{
+    position: absolute;
+    left: 4.5%;
+    top: 50.9%;
+  }
+  .Subpara1{
+    color: grey;
+    position: absolute;
+    top:40%;
+    left:10%;
+    cursor: pointer;
+  }
+  .Colorsubhead1{
+    position: absolute;
+    font-style: italic;
+    color: red;
+    left: 9.5%;
+    top:25%;
+  }
+  .Subhead1{
+    position: absolute;
+    font-style: normal;
+    left: 12%;
+    top:25%;
+  }
+  .Colorsubhead2{
+    position: absolute;
+    font-style: italic;
+    color: grey;
+    top: 25%;
+    left: 16.7%;
+  }
+  .Colorsubhead3{
+    position: absolute;
+    left: 9.5%;
+    top: 47%;
+    color: red;
+  }
+  .Subhead2{
+    position: absolute;
+    font-style: normal;
+    left: 12%;
+    top: 46.9%;
+  }
+  .Colorsubhead4{
+    position: absolute;
+    font-style: italic;
+    color: gray;
+    left: 15.9%;
+    top:46.9%
+  }
+  .Head2{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 85%;
+    left: 7%;
+    font-size: 110%;
+  }
+  .comm{
+    position: absolute;
+    left: 5.5%;
+    top: 90%;
+  }
+  .Para3{
+    position:absolute;
+    top:54%;
+    left: 10%;
+  }
+  .Ani{
+    position: absolute;
+    left: 94.5%;
+    top:3%;
+  }
+  .Subpara2{
+    color: grey;
+    position: absolute;
+    top:79%;
+    left:10%;
+    cursor: pointer;
+  }
+  .Head{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 30px;
+    color: black;
+  }
+  .Home{
+    cursor: pointer;
+    position: absolute;
+    left: 89%;
+    top:3%;
+  }
+  
+  .Para1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 20px;
+    color: rgb(202, 27, 56);
+  }
+  .bbottom{
+    margin-top: 150px;
+    border-bottom: 10px solid black;
+  }
+  .img1{
+    position: absolute;
+    top: 2%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    background-image: linear-gradient(to right, rgb(12, 8, 255) , rgb(192, 1, 1));
+    color: white;
+  }
